@@ -1,5 +1,5 @@
 * {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
     margin: 0px 0px;
 }
 
@@ -9,42 +9,56 @@
     padding: 10px;
     height: 125px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header > .header-left {
     display: inline;
     display: flex;
     align-items: left;
+    align-self: center;
 }
 
-.header > .header-left img {
+.header > .header-left > .main-logo img {
     padding-left: 20px;
-    width: 200px;
-    height: 100px;
+    height: 50px;
 }
 
 .header > .header-left > .links {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
 }
 
 .header > .header-left > .links a {
     align-items: left;
     justify-content: space-between;
     color: white; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-.header > .call-to-action p {
+.header > .header-left > .links >.call-to-action p .explore {
+    display: block;
     text-transform: uppercase;
     font-size: 15px;
-    color: yellow;
+    color: rgb(219, 219, 40);
     text-align: left;
 }
 
+.header > .header-left > .links a .sparkclass {
+    color: rgb(92, 92, 92); 
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 25px;
+}
+
 .header-right {
-    display: inline;
-    align-items: left;
-    justify-content: space-between;    
+    display: flex;
+    align-items: right;
+    justify-content: right; 
+    align-content: right; 
 }
 
 .links > .dropdown-spark button {
@@ -90,4 +104,28 @@
     padding: 15px;
     border: 0px;
     justify-content: space-between; 
+}
+
+.header > .header-right {
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    align-content: right;
+
+}
+
+.header > .header-right button {
+    margin: 2px;
+    padding: 17px;
+    background-color: rgb(52, 52, 52);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lupa-clara {
+  color: #ccc; /* gris claro */
+  font-size: 24px; /* tamaño opcional */
 }

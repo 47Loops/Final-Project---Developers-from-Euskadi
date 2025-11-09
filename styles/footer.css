@@ -1,27 +1,23 @@
-.foot > .foot-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 2px;
+.foot {
+    display: flex;
+    background-color: rgb(64, 64, 64);
+    gap: 2px;
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 5px;
-    background-color: rgb(70, 70, 70);
-    border: 1px solid white;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
-.foot > .foot-wrapper a {
+.foot a {
     font-size: 1.1em;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    align-items: center;
-    align-content: center;
-
+    font-weight: bold;
 }
     
 #caps {
-    font-size: 1.2em;
+    font-size: 1.25em;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
 }
