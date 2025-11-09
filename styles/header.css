@@ -1,0 +1,93 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0px 0px;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    height: 125px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > .header-left {
+    display: inline;
+    display: flex;
+    align-items: left;
+}
+
+.header > .header-left img {
+    padding-left: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.header > .header-left > .links {
+    display: inline;
+}
+
+.header > .header-left > .links a {
+    align-items: left;
+    justify-content: space-between;
+    color: white; 
+}
+
+.header > .call-to-action p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: yellow;
+    text-align: left;
+}
+
+.header-right {
+    display: inline;
+    align-items: left;
+    justify-content: space-between;    
+}
+
+.links > .dropdown-spark button {
+    background-color: rgba(69, 69, 69, 0.536);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    border: 0px;
+    justify-content: space-between; 
+}
+
+.links > .dropdown-spark button {
+    background-color: rgba(69, 69, 69, 0.536);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    border: 0px;
+    justify-content: space-between; 
+}
+
+.dropdown-create button {
+    background-color: rgba(69, 69, 69, 0.536);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    border: 0px;
+    justify-content: space-between; 
+}

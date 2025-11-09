@@ -1,0 +1,91 @@
+.main {
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.874), rgb(0, 0, 0));
+}
+
+.main >.container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+.main >.container-main > .grid-main-left-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding-top: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.main >.container-main > .grid-main-left-column > .first-paragraph p {
+    font-size: 2.7em;
+    color: white;
+}
+
+.main >.container-main > .grid-main-left-column > .first-paragraph #bold {
+    font-weight: bold;
+}
+
+.main >.container-main > .grid-main-left-column > .second-paragraph p {
+    font-size: 2.1em;
+    color: rgb(151, 151, 151);
+}
+
+.grid-call-to-action-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-call-to-action-buttons >.sign-up-for-free button {
+    background-color: rgb(64, 142, 64);
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    border: 0px;
+}
+
+.grid-call-to-action-buttons >.learn-more button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    border: 0px;
+}
+
+.main >.container-main > .grid-main-right-column {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.grid-main-right-column >.call-to-action-text p {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.grid-main-right-column >.call-to-action-text p #cpprojects {
+    color: rgb(10, 173, 249);
+}
+
+.grid-main-right-column >.image-right-column img {
+    align-items: right;
+    margin-right: 0px;
+}
