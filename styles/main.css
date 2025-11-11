@@ -1,4 +1,5 @@
 .main {
+    font-family: "Inter", sans-serif;
     display: grid;
     grid-template-columns: 45% 45%;
     gap: 25px;
@@ -17,7 +18,7 @@
 }
 
 .main > .grid-main-left-column > .first-paragraph p {
-    font-size: 2.7em;
+    font-size: 2.5em;
     color: white;
     letter-spacing: normal;
 }
@@ -27,7 +28,7 @@
 }
 
 .main > .grid-main-left-column > .second-paragraph p {
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: rgb(151, 151, 151);
 }
 
@@ -36,33 +37,38 @@
     align-content: left;
     align-items: left;
     gap: 5px;
+    margin-top: 0;
 }
 
 .grid-call-to-action-buttons >.sign-up-for-free button {
-    background-color: rgb(64, 142, 64);
+    background-color: #4BCE79;
+    font-family: "Geist", sans-serif;
     color: black;
     border-radius: 5px;
     box-shadow: none;
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
     text-decoration: none;
     margin: 2px;
     border: 0px;
-    padding: 17px;
+    padding: 17px 38px 17px 38px;
+    cursor: pointer;
 }
 
 .grid-call-to-action-buttons >.learn-more button {
     background-color: black;
+    font-family: "Geist", sans-serif;
     color: white;
     font-weight: bold;
     border-radius: 5px;
     box-shadow: none;
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
     text-decoration: none;
     margin: 2px;
-    padding: 17px;
+    padding: 17px 38px 17px 38px;
     border: 0px;
+    cursor: pointer;
 }
 
 .main > .grid-main-right-column {

@@ -1,13 +1,13 @@
 * {
-    font-family: 'Inter', system-ui, sans-serif;
     margin: 0px 0px;
 }
 
 .header {
+    font-family: "Geist", sans-serif;
     display: flex;
     background-color: black;
     padding: 10px;
-    height: 125px;
+    height: 80px;
     align-items: center;
 }
 
@@ -23,11 +23,16 @@
     height: 50px;
 }
 
-.header > .header-left > .links {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    align-items: center;
+.header > .header-left > .links > .call-to-action {
+    display: inline;
+    margin-bottom: 6px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .header > .header-left > .links a {
@@ -47,85 +52,78 @@
     text-align: left;
 }
 
-.header > .header-left > .links a .sparkclass {
+.header > .header-left > .links >.menu-links a .sparkclass {
     color: rgb(92, 92, 92); 
     text-decoration: none;
-    font-weight: normal;
-    padding-left: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.header > .header-left > .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.menu-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.menu-links > div {
+  display: flex;
+  align-items: center;
 }
 
 .header-right {
-    display: flex;
-    align-items: right;
-    justify-content: right; 
-    align-content: right; 
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 15px;
+  padding-right: 20px;
 }
 
-.links > .dropdown-spark button {
-    background-color: rgba(69, 69, 69, 0.536);
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    box-shadow: none;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none;
-    margin: 10px;
-    padding: 15px;
-    border: 0px;
-    justify-content: space-between; 
-}
-
-.links > .dropdown-spark button {
-    background-color: rgba(69, 69, 69, 0.536);
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    box-shadow: none;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none;
-    margin: 10px;
-    padding: 15px;
-    border: 0px;
-    justify-content: space-between; 
-}
-
-.dropdown-create button {
-    background-color: rgba(69, 69, 69, 0.536);
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    box-shadow: none;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none;
-    margin: 10px;
-    padding: 15px;
-    border: 0px;
-    justify-content: space-between; 
-}
-
-.header > .header-right {
-    gap: 10px;
-    justify-content: right;
-    align-items: center;
-    align-content: right;
-
-}
-
-.header > .header-right button {
-    margin: 2px;
-    padding: 17px;
+.create-button, .login-button,
+.signup-button {
     background-color: rgb(52, 52, 52);
-    border: none;
+    font-family: "Geist", sans-serif;
+  color: white;
+  height: 75px;
+  font-weight: bold;
     border-radius: 5px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+    border: none;
+      border-radius: 5px;
+      font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
-.lupa-clara {
-  color: #ccc; /* gris claro */
-  font-size: 24px; /* tamaño opcional */
+.create-button {
+  padding: 20px;
+}
+
+.search-icon i {
+  color: #ccc;
+  font-size: 30px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.login-button,
+.signup-button {
+  padding: 27px 27px;
+}
+
+.signup-button {
+    margin-left: 5px;
+}
+
+.login-button {
+    margin: 0px 0px 0px 10px;
 }
