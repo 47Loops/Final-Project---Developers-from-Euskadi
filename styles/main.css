@@ -1,11 +1,11 @@
 .main {
-    font-family: "Inter", sans-serif;
     display: grid;
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.874), rgb(0, 0, 0));
     grid-template-columns: 48% 45%;
     gap: 25px;
     padding-left: 50px;
-    padding-top: 20px;
-    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.874), rgb(0, 0, 0));
+    padding-top: 20px; 
 }
 
 .main > .grid-main-left-column {
@@ -18,18 +18,18 @@
 }
 
 .main > .grid-main-left-column > .first-paragraph p {
-    font-size: 2.8em;
+    font-size: 2.7em;
     color: white;
-    letter-spacing: normal;
+    letter-spacing: 0.25px;
     margin-bottom: 17px;
 }
 
-.main > .grid-main-left-column > .first-paragraph #bold {
+.main > .grid-main-left-column > .first-paragraph .bold {
     font-weight: bold;
 }
 
 .main > .grid-main-left-column > .second-paragraph p {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: rgb(151, 151, 151);
     margin-bottom: 17px;
 }
@@ -54,6 +54,7 @@
     margin: 2px;
     border: 0px;
     padding: 17px 38px 17px 38px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -86,12 +87,12 @@
     color: #ffffff;
     font-weight: bold;
     text-align: left;
-  padding-left: 0;
-  margin-left: 0
+    padding-left: 0;
+    margin-left: 0
 }
 
 .main > .grid-main-right-column >.call-to-action-text p .cpprojects {
-    color: rgb(10, 173, 249);
+    color: #78DAFD;
 }
 
 .main > .grid-main-right-column >.image-right-column img {
@@ -106,10 +107,10 @@
 
 .grid-call-to-action-buttons >.sign-up-for-free button:hover {
   background-color: #66c487;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .grid-call-to-action-buttons >.learn-more button:hover {
     background-color: rgba(0, 0, 0, 0.83);
-    transition: 1s;
+    transition: 0.2s;
 }
