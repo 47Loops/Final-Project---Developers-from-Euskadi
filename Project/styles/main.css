@@ -1,7 +1,7 @@
 .main {
     display: grid;
     font-family: "Inter", sans-serif;
-    background-image: linear-gradient(to right, rgba(27, 27, 27, 0.874), rgb(0, 0, 0));
+    background-image: linear-gradient(to right, #2f3239, #0a0a0c);
     grid-template-columns: 48% 45%;
     gap: 25px;
     padding-left: 50px;
@@ -18,10 +18,11 @@
 }
 
 .main > .grid-main-left-column > .first-paragraph p {
-    font-size: 2.7em;
+    font-size: 2.75em;
     color: white;
     letter-spacing: 0.25px;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
+    font-weight: 300;
 }
 
 .main > .grid-main-left-column > .first-paragraph .bold {
@@ -31,7 +32,8 @@
 .main > .grid-main-left-column > .second-paragraph p {
     font-size: 2.2em;
     color: rgb(151, 151, 151);
-    margin-bottom: 17px;
+    margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .grid-call-to-action-buttons {
